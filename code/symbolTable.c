@@ -43,7 +43,7 @@ int lookup(char *a)
 	}
 	return 1;
 }
-// return a, tau a ka returntype batayega
+// returns datatype of a
 int returntype(char *a,int sct)
 {
 	int i;
@@ -69,7 +69,7 @@ void insertscope(char *a,int s)
 	}
 }
 
-// func ka returntype return krta h
+// returns fucntions return type
 int returntypef(char *a)
 {
 	int i;
@@ -111,7 +111,7 @@ void insert(char *name, int type)
 
 	return;
 }
-// counter=ct , arr stores retyrn types 
+// counter=ct , arr stores return types 
 int returntype_func(int ct)
 {
 	return arr[ct-1];
