@@ -149,7 +149,7 @@ void insertp(char *name,int type)
   		}
  	}
 }
-// jis type ke var fun call ke time hai, usi type ke fun ke definition mai hai
+// checks if datatype of a variableduring fucntion call = datatype of function definition
 int checkp(char *name,int flist,int c)
 {
  	int i,j;
