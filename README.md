@@ -1,4 +1,4 @@
-# Semantic_analyser
+# Semantic Analyser 
 This repository contains the implementation of a lex based semantic analyser capable of parsing the C language.
 The functionalities that we have provided are:
 1) To detect if the user has used a reserved keyword or identifier as a variable name
@@ -8,3 +8,10 @@ The functionalities that we have provided are:
 5) Check if a parameter's type is compatible with the function call.
 
 **The test cases along with i/o screenshots are provided in the test_doc.pdf**
+
+## How to run
+1) run `lex assgn3.l`. This will create a lex.yy.c file.
+2) run `gcc -lfl lex.yy.c` to compile the C file.
+3) run  `./a.out` 
+
+
