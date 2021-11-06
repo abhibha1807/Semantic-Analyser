@@ -59,7 +59,7 @@ Function : Type ID '('')' CompoundStmt {
 		{printf("Error : Redeclaration of %s : Line %d\n",$2,printline()); errc++;}
 	else
 	{
-		/*** passing name and FUNCTION btata h ki $2 is a name of a function not name of a var :P ***/
+		/*** passing name and FUNCTION. $2 is a name of a function not name of a var :P ***/
 		insert($2,FUNCTION);
 		/* name of function , return type is being passed*/
 		insert($2,$1);  
